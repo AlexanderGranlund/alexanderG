@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sv">
+ <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="cssTC/style.css"/>
+   <link rel="stylesheet" href="cssTC/grid.css"/>
+    <title id="heading1">Tech Comparator</title>
+ </head>
+ <body>
+    <h1 id="toppen">Tech Comparator</h1>
+      <div class="container">
+    <header>
+    For All Tech Lovers!
+</header>
+   <nav>
+       <div class="navbar">
+   <a href="#home">Home</a>
+   <a href="Index2.html" >Compare</a>
+   <div class="dropdown">
+   <button class="dropbtn" onclick="myFunction()">About US
+     <i class="fa fa-caret-down"></i>
+   </button>
+   <div class="dropdown-content" id="myDropdown">
+     <a href="Index3.html">What Do We Do?</a>
+     <a href="Index3.html">Why Do We Do It?</a>
+     <a href="Index3.html">How Does This Site Work?</a>
+   </div>
+   </div>
+
+
+ <script>
+ /* When the user clicks on the button,
+ toggle between hiding and showing the dropdown content */
+ function myFunction() {
+   document.getElementById("myDropdown").classList.toggle("show");
+ }
+
+ // Close the dropdown if the user clicks outside of it
+ window.onclick = function(e) {
+   if (!e.target.matches('.dropbtn')) {
+   var myDropdown = document.getElementById("myDropdown");
+     if (myDropdown.classList.contains('show')) {
+       myDropdown.classList.remove('show');
+     }
+   }
+ }
+ </script>
+       <br>
+       <br>
+   </div>
+   </nav>
+   <section>
+   </section>
+   <footer>
+     <br>
+      <a href="#toppen" id="footerbtn" >Have a technical day!</a>
+   </footer>
+ </div>
+ </body>
+ </html>
