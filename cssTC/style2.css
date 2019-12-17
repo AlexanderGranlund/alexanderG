@@ -258,3 +258,14 @@ footer {
 }
 
 /* -------------------------------------------------------index3.html------------------------------------------------------ */
+
+#text1 {
+  color: white;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px black;
+}
+#text1 {
+  background-color: lightblue;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}

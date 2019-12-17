@@ -29,6 +29,11 @@ header{
         grid-row: 35/35;
       }
 
+      #aboutus {
+        grid-row: 5/9;
+        grid-column: 1/10;
+      }
+
       @media screen and (max-width: 600px){
         nav{
           grid-column: 1/-1
@@ -43,3 +48,4 @@ section {
   grid-row: 9/13;
 }
 }
+  /* _________________________________________Grid index3.html_________________________________________________ */
