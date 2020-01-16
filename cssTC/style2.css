@@ -11,9 +11,10 @@ h1{
   padding: 30px;
   margin: 0px;
   text-align: center;
-  font-size: 50px;
+  font-size: 5rem;
   color: white;
   text-shadow: 3px 3px black;
+  -webkit-text-stroke: 2px black;
 }
 
 
@@ -38,6 +39,7 @@ nav{
   overflow: hidden;
   background-color: #333;
   font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 10px 55px black;
 }
 
 .navbar a {
@@ -259,13 +261,36 @@ footer {
 
 /* -------------------------------------------------------index3.html------------------------------------------------------ */
 
+
 #text1 {
   color: white;
   font-size: 1.2rem;
   text-shadow: 2px 2px black;
+  background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4);
+padding: 15px;
+margin: 0px;
+border-style: double;
 }
-#text1 {
-  background-color: lightblue;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+
+#text2 {
+  color: white;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px black;
+padding: 15px;
+margin: 0px;
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4);
+border-style: double;
+}
+
+#text3 {
+  color: white;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px black;
+  background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4);
+padding: 15px;
+margin: 0px;
+border-style: double;
 }

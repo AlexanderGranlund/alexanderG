@@ -1,6 +1,6 @@
 body{
   margin: 0px;
-  background-image: url("https://cdn.pixabay.com/photo/2016/02/15/11/40/background-1201008_960_720.jpg");
+   background-image: url("https://cdn.pixabay.com/photo/2016/02/15/11/40/background-1201008_960_720.jpg");
 background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
@@ -11,26 +11,44 @@ h1{
   background-color: darkblue;
   padding: 30px;
   margin: 0px;
+  /*
   text-align: center;
   font-size: 50px;
   color: white;
-  text-shadow: 3px 3px black;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;*/
+
+  font-size: 5em;
+  -webkit-text-stroke: 3px black;
+  -webkit-text-fill-color: white;
+  -webkit-animation: fill 0.5s infinite alternate;
+  text-align: center;
+  }
+
+  @-webkit-keyframes fill {
+  from { -webkit-text-fill-color: darkblue; }
+  to { -webkit-text-fill-color: white; }
+
+  View Compiled
+
+
+  Resources
+
 }
 
 
 header{
   text-align: center;
-  text-shadow: 1px 1px black;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  color: white;
+  font-size: 2rem;
+  
 }
 nav{
   text-align: center;
   padding: 0px; margin: 0px;
 }
 
-header{
-  color: lightblue;
-  font-size: 2rem;
-}
+
 div {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -39,6 +57,7 @@ div {
 section {
 }
 
+
 footer {
   background-color: blue;
   padding: 0px;
@@ -46,19 +65,21 @@ footer {
   text-align: center;
   font-size: 2rem;
   color: white;
+    box-shadow: 0px 10px 40px black;
 }
 #footerbtn {
   text-align: center;
   color: white;
   font-size: 2rem;
-  text-shadow: 2px 2px darkblue;
-  
+  text-shadow: 1px 3px 3px black, 0 0 25px blue, 0 0 5px darkblue;
+
 }
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #333; /* #333 */
   font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0px 10px 55px black;
 }
 
 .navbar a {
@@ -91,7 +112,7 @@ footer {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: grey;
+  background-color: blue;
 }
 
 .dropdown-content {
